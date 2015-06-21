@@ -66,8 +66,10 @@
 .dot5-top::before,.dot5-bottom::after{-webkit-transform:scaleY(0.2);transform:scaleY(0.2)}
 </style>
 ```
+
 > iphone4及4s在边框缩放小于0.5时，solid线条并不变细，而是颜色变浅，而dotted及dashed类型不显示。所以推荐缩放不小于0.5
 
+---
 
 > 修改线条类型
 
