@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='utf-8'>
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+<title>dot5测试</title>
+<link rel="stylesheet" type="text/css" href="./dot5.css" />
+<style>
+/* 页面样式 */
+*{-webkit-tap-highlight-color:rgba(0,0,0,0);padding:0;margin:0;}
+.refresh,.refresh:visited{text-decoration:none;display:block;width:50px;height:50px;text-align:center;background-color:rgba(0,0,0,.2);position:fixed;right:20px;top:40px;border-radius:100px;line-height:50px;color:#fff;z-index:100000000}
+.main .item{margin:20px;padding:20px;background-color:rgba(0,0,0,.02);}
+
+/* 修改线颜色 */
+/*
+.dot5-left::before,.dot5-right::after,.dot5-top::before,.dot5-bottom::after{border-color:#c00;}
+*/
+
+/* 修改线类型 */
+/*
+.dot5-top::before{border-top-style:dashed}
+.dot5-right::after{border-right-style:dotted}
+.dot5-bottom::after{border-bottom-style:double}
+.dot5-left::before{border-left-style:dashed}
+*/
+</style>
+</head>
+<body>
+<div class="main">
+	<div class="item dot5-top">上边框</div>
+	<div class="item dot5-right">右边框</div>
+	<div class="item dot5-bottom">下边框</div>
+	<div class="item dot5-left">左边框</div>
+	<div class="item dot5-top dot5-bottom">上下边框</div>
+	<div class="item dot5-left dot5-right">左右边框</div>
+	<div style="margin:20px;background-color:rgba(0,0,0,.02);">
+		<div class="dot5-top dot5-bottom">
+			<div class="dot5-left dot5-right"  style="padding:20px;">全边框</div>
+		</div>
+	</div>
+</div>
+
+<a class="refresh" href="">刷新</a>
+
+</body>
+</html>
