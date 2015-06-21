@@ -58,6 +58,15 @@
 </style>
 ```
 
+> 修改线条粗细
+
+```css
+<style>
+.dot5-left::before,.dot5-right::after{-webkit-transform:scaleX(0.2);transform:scaleX(0.2)}
+.dot5-top::before,.dot5-bottom::after{-webkit-transform:scaleY(0.2);transform:scaleY(0.2)}
+</style>
+```
+
 > 修改线条类型
 
 ```css
