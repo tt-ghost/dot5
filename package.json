@@ -10,8 +10,8 @@
     "type": "git",
     "url": "git+https://github.com/tt-ghost/dot5.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["dot5","border", "fine border"],
+  "author": "tt-ghost",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/tt-ghost/dot5/issues"

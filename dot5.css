@@ -1,16 +1,46 @@
 /*
  * dot5.css
  * 
- * version : 0.1
- * author  : tt
- * ps      : 目前仅支持css3浏览器 
+ * version : 0.1.0
+ * author  : ttghost@126.com
  * 
  * */
-.dot5-top,.dot5-right,.dot5-bottom,.dot5-left{position:relative;}
-.dot5-left::before,.dot5-right::after,.dot5-top::before,.dot5-bottom::after{display:block;content:'';position:absolute;border:1px none #ccc}
-.dot5-left::before,.dot5-right::after{height:100%;width:0;top:0;-webkit-transform:scaleX(0.5);transform:scaleX(0.5)}
-.dot5-top::before,.dot5-bottom::after{height:0;width:100%;left:0;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}
-.dot5-top::before{top:0;border-top-style:solid}
-.dot5-right::after{right:0;border-right-style:solid}
-.dot5-bottom::after{bottom:0;border-bottom-style:solid}
-.dot5-left::before{left:0;border-left-style:solid}
+.dot5-top, .dot5-right, .dot5-bottom, .dot5-left {
+  position: relative;
+}
+.dot5-left::before, .dot5-right::after, .dot5-top::before, .dot5-bottom::after {
+  display: block;
+  content: '';
+  position: absolute;
+  border: 1px none #ccc
+}
+.dot5-left::before, .dot5-right::after {
+  height: 100%;
+  width: 0;
+  top: 0;
+  -webkit-transform: scaleX(0.5);
+  transform: scaleX(0.5)
+}
+.dot5-top::before, .dot5-bottom::after {
+  height: 0;
+  width: 100%;
+  left: 0;
+  -webkit-transform: scaleY(0.5);
+  transform: scaleY(0.5)
+}
+.dot5-top::before {
+  top: 0;
+  border-top-style: solid
+}
+.dot5-right::after {
+  right: 0;
+  border-right-style: solid
+}
+.dot5-bottom::after {
+  bottom: 0;
+  border-bottom-style: solid
+}
+.dot5-left::before {
+  left: 0;
+  border-left-style: solid
+}
