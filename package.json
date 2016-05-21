@@ -1,0 +1,20 @@
+{
+  "name": "dot5",
+  "version": "0.1.0",
+  "description": "半像素边框",
+  "main": "dot5.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tt-ghost/dot5.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tt-ghost/dot5/issues"
+  },
+  "homepage": "https://github.com/tt-ghost/dot5#readme"
+}
