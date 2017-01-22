@@ -1,6 +1,6 @@
 {
   "name": "dot5",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "半像素边框",
   "main": "dot5.css",
   "scripts": {
