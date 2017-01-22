@@ -103,6 +103,6 @@ iphone4及4s在边框缩放小于0.5时，solid线条并不变细，而是颜色
 
 ## DEMO
 
-[http://fe1024.com/demos/dot5](http://fe1024.com/demos/dot5)
+[http://fe1024.com/static/demos/dot5](http://fe1024.com/static/demos/dot5)
 
 
